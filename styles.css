@@ -1,23 +1,25 @@
+/* Reset and Box Sizing */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Body Styling */
 body {
     font-family: 'Lora', serif;
-    background-color: #121212;
+    background-color: #1b003d;
     color: white;
     text-align: center;
     align-items: center;
     display: flex;
     flex-direction: column;
     padding: 33px;
-
 }
 
+/* Header Styling */
 header {
-    font-family: 'Lora', serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 33px;
     font-weight: bold;
     text-transform: uppercase;
@@ -25,11 +27,46 @@ header {
 }
 
 h2 {
-    font-family: 'Lora', serif;
+    font-family: 'Oswald', sans-serif;
     color: rgb(250, 36, 143);
     font-size: 22px;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+/* Styling for About & Lyrics Sections */
+.about, .lyrics {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 2px solid rgb(250, 36, 143);
+    padding: 10px;
+    box-shadow: 0 0 15px rgb(250, 36, 143); 
+}
+
+.about p, .lyrics p {
+    max-width: 600px;
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: none;
+    margin-top: 33px;
+    margin-bottom: 33px;
+    padding: 10px;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 10px 0;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 13px;
+    font-size: 13px;
 }
 
 .about, .lyrics {
