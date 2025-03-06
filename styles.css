@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lora', serif;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 33px;
+
+}
+
+header {
+    font-family: 'Lora', serif;
+    font-size: 33px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.about, .lyrics {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 33px;
+    margin-bottom: 33px;
+}
+
+.about, .lyrics p {
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: none;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 10px 0;
+}
+
+footer {
+    margin-top: 13px;
+    font-size: 13px;
+}
