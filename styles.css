@@ -8,7 +8,7 @@
 /* Body Styling */
 body {
     font-family: 'Lora', serif;
-    background-color: #1b003d;
+    background-color: #14002c;
     color: white;
     text-align: center;
     align-items: center;
@@ -17,6 +17,21 @@ body {
     padding: 33px;
 }
 
+.left-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 27%;
+    height: 100%;
+}
+
+.right-image {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 27%;
+    height: 100%;
+}
 /* Header Styling */
 header {
     font-family: 'Oswald', sans-serif;
@@ -40,8 +55,8 @@ h2 {
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     border: 2px solid rgb(250, 36, 143);
     padding: 10px;
     box-shadow: 0 0 15px rgb(250, 36, 143); 
@@ -53,8 +68,8 @@ h2 {
     font-size: 16px;
     font-weight: normal;
     text-transform: none;
-    margin-top: 33px;
-    margin-bottom: 33px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     padding: 10px;
 }
 
@@ -64,53 +79,6 @@ blockquote {
 }
 
 /* Footer Styling */
-footer {
-    margin-top: 13px;
-    font-size: 13px;
-}
-
-.about, .lyrics {
-    font-family: 'Lora', serif;
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-top: 33px;
-    margin-bottom: 33px;
-    border: 2px solid #000;
-}
-
-.about, .lyrics p {
-    max-width: 600px;
-    font-family: 'Lora', serif;
-    font-size: 16px;
-    font-weight: normal;
-    text-transform: none;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-blockquote {
-    font-style: italic;
-    margin: 10px 0;
-}
-
-footer {
-    margin-top: 13px;
-    font-size: 13px;
-}
-
-.about, .lyrics p {
-    font-family: 'Lora', serif;
-    font-size: 16px;
-    font-weight: normal;
-    text-transform: none;
-}
-
-blockquote {
-    font-style: italic;
-    margin: 10px 0;
-}
-
 footer {
     margin-top: 13px;
     font-size: 13px;
